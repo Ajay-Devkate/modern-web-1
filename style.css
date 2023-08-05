@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#m-circle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    width: 15px;
+    height: 15px;
+    position: fixed;
+    background-color: white;
+    z-index: 99;
+    border-radius: 50%;
+
+}
+/* #bounding {
+    width: fit-content;
+    /* background-color: red; */
+    /* overflow: hidden; */
+/* }
+#bounding #boundingelem { */
+    /* transform: translatey(100%);
+} */ 
+
+#main {
+    background-color: black;
+    width: 100%;
+}
+
+#hero {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#nav {
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#heading {
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+#heading h1 {
+    margin-left: 5vw;
+    line-height: 1;
+    font-size: 9vw;
+    opacity: 0.7;
+}
+
+#heading #secondh1 {
+    margin-left: 20vw;
+}
+
+#heading h5 {
+    margin-left: 55vw;
+    font-size: 1.2vw;
+}
+
+#chhotiheading {
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    line-height: 2;
+    margin-top: 120px;
+    padding-right: 30px;
+}
+
+#chhotiheading h5 {
+    text-align: right;
+    font-weight: 550;
+}
+
+#herofooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    top: 102%;
+}
+
+#herofooter a {
+    text-decoration: none;
+    color: white;
+}
+
+#herofooter a i {
+    padding-left: 5px;
+}
+
+#iconset {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #888;
+    color: black;
+    font-weight: 900;
+}
+
+#second {
+    padding-right: 10vw;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 200px;
+    color: white;
+}
+
+.elem {
+    position: relative;
+    margin-left: 40px;
+    padding: 3vw 0vw;
+    width: 100%;
+    border-top: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem h1 {
+    font-size: 7vw;
+    opacity: 0.6;
+}
+
+.elem-last {
+    border-bottom: 1px solid #888;
+    /* padding: 3vw 2.5vw; */
+}
+
+.elem img {
+    display: none;
+    width: 420px;
+    position: absolute;
+    z-index: 99;
+}
+
+#about {
+    width: 100%;
+    background-color: black;
+    padding: 10vw 10vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 38vw;
+    gap: 70px;
+}
+
+#about img {
+    width: 270px;
+}
+
+#text-about {
+    line-height: 1.9vw;
+    font-size: 18px;
+    font-weight: 200;
+    width: 30rem;
+}
+
+#text-about h5 {
+    opacity: 0.7;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#text-about p {
+    margin-bottom: 20px;
+}
+
+#text-about a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 6px 15px;
+    border-radius: 17px;
+    font-size: 15px;
+}
+
+#subscribe {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 20px 50px;
+    padding-bottom: 10vw;
+}
+
+#subscribe h5 {
+    opacity: .6;
+    font-size: 15px;
+    font-weight: 200;
+    padding-bottom: 8px;
+}
+
+#subscribe h4 {
+    font-weight: 500;
+}
+
+#subscribe i {
+    padding-left: 2px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+#footer-left {
+    display: flex;
+    gap: 30px;
+}
+
+#footer-left h5 {
+    font-size: 1vw;
+}
+
+#footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+#footer-right a {
+    color: #fff;
+    font-size: 1vw;
+    text-decoration: none;
+
+}
